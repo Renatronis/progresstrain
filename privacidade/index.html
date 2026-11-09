@@ -10,7 +10,7 @@
   <header class="site"><a href="../">ProgressTrain</a></header>
   <main>
     <h1>Política de Privacidade</h1>
-    <p class="meta">Versão 1.1, vigente desde 05/11/2026. Versão anterior: <a href="./v1.0/">1.0, de 04/11/2026</a> (esta versão acrescenta o Google como fornecedor de envio de e-mails).</p>
+    <p class="meta">Versão 1.2, vigente desde 09/11/2026. Versões anteriores: <a href="./v1.1/">1.1, de 05/11/2026</a>, e <a href="./v1.0/">1.0, de 04/11/2026</a>. Esta versão acrescenta o nome e a foto de perfil (opcionais), a exportação dos dados pelo próprio app e os caminhos atuais dos menus.</p>
 
     <p>Esta política explica quais dados o ProgressTrain trata, por que, onde eles ficam e como você controla seus dados. A pessoa a quem os dados se referem é chamada de <strong>titular</strong>: no caso, você.</p>
 
@@ -23,6 +23,7 @@
         <thead><tr><th>Categoria</th><th>Dados</th><th>De onde vêm</th></tr></thead>
         <tbody>
           <tr><td>Conta</td><td>E-mail e senha. A senha é guardada de forma protegida pelo provedor de autenticação e ninguém do ProgressTrain tem acesso a ela</td><td>Você, no cadastro</td></tr>
+          <tr><td>Perfil (opcional)</td><td>Nome (até 40 caracteres) e foto de perfil, se você escolher adicionar</td><td>Você, em Conta &gt; Editar perfil. A foto vem da galeria ou da câmera, só quando você escolhe uma</td></tr>
           <tr><td>Idade e autorização</td><td>Se você tem 18 anos ou mais ou, se for menor, a autorização do responsável, com a data do aceite</td><td>Você, na tela de aceite</td></tr>
           <tr><td>Treinos</td><td>Fichas, exercícios (inclusive os que você cria), datas e horários de início e fim, séries, repetições, cargas, nota de esforço (1 a 5) e anotações livres do treino</td><td>Você, ao usar o app</td></tr>
           <tr><td>Medidas corporais</td><td>Peso, percentual de gordura e circunferências (braço, peito, cintura, quadril, coxa e panturrilha), com a data</td><td>Você, ao usar o app</td></tr>
@@ -31,7 +32,7 @@
         </tbody>
       </table>
     </div>
-    <p>Não usamos ferramentas de análise, publicidade ou rastreamento. Não pedimos nome, CPF, telefone, data de nascimento, localização, fotos ou contatos.</p>
+    <p>Não usamos ferramentas de análise, publicidade ou rastreamento. Não pedimos CPF, telefone, data de nascimento, localização nem contatos. Nome e foto de perfil são opcionais, e o app só acessa a câmera ou as fotos do aparelho quando você escolhe adicionar uma foto de perfil. A foto é recortada e regravada pelo app antes de ser enviada. Arquivos de foto podem trazer informações como a data e o local em que foram tiradas; o ProgressTrain não usa essas informações.</p>
 
     <h2>3. Dados de saúde (dados sensíveis)</h2>
     <p>Peso, percentual de gordura, circunferências e qualquer informação de saúde que você escrever nas anotações são <strong>dados pessoais sensíveis</strong> (LGPD, art. 5º, II). Eles só são tratados com o seu <strong>consentimento específico e destacado</strong> (art. 11, I), pedido numa caixa própria na tela de aceite que aparece logo depois de criar a conta, separada da aceitação dos Termos. Sem esse consentimento, você registra treinos normalmente, mas as medidas corporais ficam indisponíveis. Você pode retirar o consentimento quando quiser (seção 8).</p>
@@ -42,6 +43,7 @@
         <thead><tr><th>Finalidade</th><th>Dados</th><th>Base legal (LGPD)</th></tr></thead>
         <tbody>
           <tr><td>Criar e manter sua conta e permitir o login</td><td>E-mail, senha, dados técnicos</td><td>Execução de contrato (art. 7º, V)</td></tr>
+          <tr><td>Mostrar seu nome e sua foto no perfil do app</td><td>Nome e foto de perfil</td><td>Execução de contrato (art. 7º, V)</td></tr>
           <tr><td>Registrar treinos e mostrar histórico, recordes e gráficos</td><td>Treinos</td><td>Execução de contrato (art. 7º, V)</td></tr>
           <tr><td>Registrar medidas corporais e mostrar sua evolução</td><td>Medidas e informações de saúde nas anotações</td><td>Consentimento específico e destacado (art. 11, I)</td></tr>
           <tr><td>Guardar cópia na nuvem e sincronizar entre aparelhos</td><td>Todos acima</td><td>A mesma base de cada dado</td></tr>
@@ -56,6 +58,7 @@
     <ul>
       <li><strong>No seu aparelho</strong>, para o app funcionar sem internet.</li>
       <li><strong>Na nuvem</strong>, quando há conexão: os dados são sincronizados com o <strong>Supabase</strong>, provedor de banco de dados e autenticação que atua como <strong>operador</strong>, isto é, trata os dados em nome do ProgressTrain e só para prestar esse serviço. Os dados ficam armazenados em servidores na <strong>região de São Paulo, Brasil</strong>.</li>
+      <li><strong>A foto de perfil</strong> fica num armazenamento privado do Supabase, no mesmo projeto e na mesma região, numa pasta que só a sua conta acessa. Uma cópia fica no seu aparelho. O nome fica no cadastro da sua conta, no serviço de autenticação do Supabase.</li>
       <li>Cada conta só tem acesso aos próprios dados, por regras de segurança aplicadas no banco de dados.</li>
       <li><strong>Transferência internacional:</strong> o Supabase é uma empresa sediada nos Estados Unidos. A equipe dele ou os fornecedores dele podem acessar ou processar dados a partir de outros países, por exemplo para suporte técnico, segurança e cópias de segurança. O Google, que envia os e-mails do app, também pode processar seu endereço de e-mail fora do Brasil. Essas transferências se apoiam no seu consentimento específico, dado na tela de aceite (LGPD, art. 33, VIII).</li>
     </ul>
@@ -72,8 +75,9 @@
     <h2>7. Por quanto tempo guardamos e como apagar</h2>
     <ul>
       <li>Os dados ficam guardados enquanto sua conta existir.</li>
-      <li><strong>Excluir conta:</strong> em Conta &gt; Excluir conta. A exclusão apaga a conta e todos os dados na nuvem e, depois que a nuvem confirma, apaga os dados do aparelho. A ação não pode ser desfeita.</li>
+      <li><strong>Excluir conta:</strong> em Conta &gt; Dados e privacidade &gt; Excluir conta. A exclusão apaga a conta e todos os dados na nuvem, inclusive a foto de perfil, e, depois que a nuvem confirma, apaga os dados do aparelho. A ação não pode ser desfeita.</li>
       <li>Itens que você apaga dentro do app (um treino, uma ficha, uma medida) deixam de aparecer e ficam marcados como apagados, sem uso, até a exclusão da conta. Se quiser que sejam eliminados de vez antes disso, peça pelo e-mail.</li>
+      <li>Ao trocar ou remover a foto de perfil, a foto anterior é apagada da nuvem.</li>
       <li>Cópias de segurança do provedor podem manter dados por um período limitado depois da exclusão, até serem substituídas automaticamente.</li>
       <li>Sem acesso ao app, peça a exclusão pelo e-mail <a href="mailto:progresstrain.app@gmail.com">progresstrain.app@gmail.com</a>, a partir do e-mail da conta. As instruções ficam em <a href="../excluir-conta/">https://renatronis.github.io/progresstrain/excluir-conta</a>.</li>
     </ul>
@@ -82,9 +86,9 @@
     <p>Você pode, a qualquer momento e sem custo (LGPD, art. 18):</p>
     <ul>
       <li>confirmar se tratamos seus dados e acessá-los;</li>
-      <li>corrigir dados incompletos ou errados (a maioria pode ser editada no próprio app);</li>
+      <li>corrigir dados incompletos ou errados (a maioria pode ser editada no próprio app; nome e foto, em Conta &gt; Editar perfil);</li>
       <li>pedir anonimização, bloqueio ou eliminação de dados desnecessários ou tratados em desconformidade;</li>
-      <li>receber uma cópia dos seus dados em formato aberto, para levá-los a outro serviço (portabilidade);</li>
+      <li>receber uma cópia dos seus dados em formato aberto, para levá-los a outro serviço (portabilidade). Você mesmo gera essa cópia em Conta &gt; Dados e privacidade &gt; Exportar meus dados: um arquivo JSON com seus dados, inclusive a foto de perfil;</li>
       <li>pedir a eliminação dos dados tratados com seu consentimento;</li>
       <li>saber com quem compartilhamos seus dados;</li>
       <li>saber que pode não consentir e o que acontece nesse caso (seção 3);</li>
@@ -106,6 +110,8 @@
     <ul>
       <li>A comunicação com a nuvem é criptografada (HTTPS).</li>
       <li>Cada conta só enxerga os próprios dados, por regras de segurança no banco de dados.</li>
+      <li>A sessão de login fica guardada criptografada no aparelho, com a chave no armazenamento seguro do sistema.</li>
+      <li>A foto de perfil fica num armazenamento privado: só a sua conta consegue enviá-la, vê-la ou apagá-la.</li>
       <li>A senha não fica guardada no app nem é visível para nós.</li>
     </ul>
     <p>Nenhum sistema é totalmente seguro. Se houver um incidente de segurança que possa causar risco ou dano relevante, avisaremos você e a ANPD (LGPD, art. 48).</p>
